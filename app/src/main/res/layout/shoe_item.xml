@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+<!--I used a cardview to give each shoe item a more pleasant look-->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -11,6 +12,8 @@
         android:layout_margin="16dp"
         android:background="#EADEDA">
 
+<!--    then i used a constraint layout to pack all textviews together using chains-->
+<!--    and keep them responsive due to the difference in text content-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
